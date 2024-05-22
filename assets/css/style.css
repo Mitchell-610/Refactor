@@ -1,5 +1,6 @@
 :root {
     --light: #ffffff;
+    --lightmed: #d9dcd6;
 }
 
 * {
@@ -9,7 +10,7 @@
 }
 
 body {
-    background-color: #d9dcd6;
+    background-color: var(--lightmed);
 }
 
 header {
@@ -25,7 +26,7 @@ header h1 {
 }
 
 header h1 .seo {
-    color: #d9dcd6;
+    color: var(--lightmed);
 }
 
 header div {
